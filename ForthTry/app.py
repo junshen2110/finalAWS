@@ -1531,9 +1531,9 @@ def download_StudF06():
     return response
 
 
-# KU XIN YAU AND LOKE KOK LAM :))))))))) LU ZHONG <333
+
 @app.route("/leclogin")
-def LecLoginPage():
+def leclogin():
     return render_template('LecturerLogin.html')
 
 
